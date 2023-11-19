@@ -47,7 +47,6 @@ searchButton.addEventListener('click',()=>{
             textMenu.innerHTML=menu.strMeal
             categorMenu.innerHTML=menu.strCategory
             receptMenu.innerHTML=menu.strInstructions
-            video.src=`https://www.youtube.com/watch?v=${menu.strYouTube}`
             innerCol.innerHTML=`
 <div>
      <img src="https://www.themealdb.com/images/ingredients/${menu.strIngredient1}.png"/>
