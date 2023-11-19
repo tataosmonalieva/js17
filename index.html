@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<header>
+    <nav>
+        <button id="menuBtn">Меню</button>
+        <button>Контакты</button>
+        <button>Адреса</button>
+        <button id="searchBtn">Найти блюдо</button>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="label-container">
+        <div class="label-wrap">
+            <label for="all">Все блюда</label>
+            <input type="radio" id="all" name="type">
+        </div>
+        <div class="label-wrap">
+            <label for="searchLabel">Найти блюдо</label>
+            <input type="radio" id="searchLabel" name="type">
+        </div>
+    </div>
+
+    <div class="inner-container hidden">
+        <input type="text" id="searchInput" placeholder="Введите блюдо">
+        <button id="searchButton">Найти</button>
+        <h2>Информация о блюде</h2>
+        <div class="row1">
+            <div class="col-6">
+                <img src="" alt="" id="imgMenu">
+                <h3 id="textMenu"></h3>
+                <p id="categorMenu"></p>
+                <p id="receptMenu"></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+
+    </div>
+</div>
+
+
+<script src="./script.js"></script>
+</body>
+</html>
